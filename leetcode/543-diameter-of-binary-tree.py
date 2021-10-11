@@ -32,7 +32,6 @@ class Solution:
         return self.diameter
 
 
-
 tree = (
     TreeNode(1,
         TreeNode(2,
@@ -53,4 +52,5 @@ tree = (
 )
 s = Solution()
 print(s.diameterOfBinaryTree(tree)) #1
+
 
